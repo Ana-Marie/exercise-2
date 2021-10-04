@@ -13,8 +13,7 @@ class Aleatorio{
     } 
 
 }
-var randomNumber = new Aleatorio();
-console.log(randomNumber.gerarNumeroAleatorio(3,5));
+module.exports = Aleatorio;
 
 
 

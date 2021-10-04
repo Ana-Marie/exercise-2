@@ -21,7 +21,7 @@
      return {
          imc:imc,
          classificacao:classificacao
-     }
+     };
     
  }
 
