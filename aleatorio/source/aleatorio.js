@@ -1,5 +1,5 @@
-class Aleatorio{
-    gerarNumeroAleatorio(inicio, fim){
+
+    function gerarNumeroAleatorio(inicio, fim){
         if(inicio<0 || fim<0){
             return -1;
         }
@@ -12,8 +12,7 @@ class Aleatorio{
     
     } 
 
-}
-module.exports = Aleatorio;
+module.exports = gerarNumeroAleatorio;
 
 
 

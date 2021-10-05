@@ -1,4 +1,4 @@
-const Aleatorio = require('../source/aleatorio');
+const gerarNumeroAleatorio = require('../source/aleatorio');
 
 describe('Aleatorio', () => {
 
@@ -9,7 +9,7 @@ describe('Aleatorio', () => {
 
     test( 'Deve reornar -1 quando o fim do intervalo eh um valor negativo', () =>{
         let resp =gerarNumeroAleatorio(2,-4);
-        expect(fim).toBe(-1);
+        expect(resp).toBe(-1);
     });
 
     test('Deve retornar -1 quando o início do intervalo é igual ao fim do intervalo', () =>{
@@ -25,3 +25,4 @@ describe('Aleatorio', () => {
     });
 
 });
+
